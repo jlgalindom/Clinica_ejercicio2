@@ -173,7 +173,7 @@
       e.preventDefault();
       const form = e.target;
       const formData = new FormData(form);
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbyaTVbHa6JEqaqJtAnBVVh3S9xYVK5QYNj86ZzyF6JThpwpVfXj_hjbJUWGuOrHdyw9/exec';
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbybZKKN0O8R6KA1oFqanqtgtcQRKM1QfB4Whp0Qz8KM8HMikPw-ngnxP21acwOwbaT3/exec';
       try {
         await fetch(scriptURL, { method: 'POST', body: formData });
         document.getElementById('mensajeExito').style.display = 'block';
